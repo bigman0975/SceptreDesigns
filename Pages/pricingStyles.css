@@ -1,0 +1,68 @@
+.pricing-container {
+    display: flex;
+    gap: 20px;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.pricing-plan {
+    flex: 1;
+    background-color: rgba(0, 0, 0, 0.553);
+    padding: 30px;
+    color: rgb(227, 226, 226);
+    border-radius: 20px;
+    text-align: center;
+    list-style: none;
+    width: 100vw;
+    font-size: 30px;
+    text-shadow: 2px 2px 2px black;
+    max-width: 400px;
+    max-height: 400px;
+
+}
+
+.title {
+    margin: 20px 0;
+    font-size: 34px
+}
+
+.price {
+    font-size: 45px;
+    font-weight: bold
+}
+
+.features {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.features li {
+    margin: 20px 0;
+}
+
+button {
+    padding: 5px;
+    border-radius: 5px;
+    width: 80px;
+    margin: 10px 0;
+    background-color: #03b9f8;
+    color: white;
+    font-weight: bold;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 24px;
+}
+
+button:hover {
+    cursor: pointer;
+    color: rgb(22, 21, 21);
+}
+
+@media (max-width: 900px) {
+    .pricing-container {
+        flex-direction: column;
+        height: 100%;
+    }
+}

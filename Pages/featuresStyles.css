@@ -12,3 +12,7 @@
     border: 2px solid black;
     height: auto;
 }
+
+.one, .two, .three {
+    grid-row: span 2;
+}

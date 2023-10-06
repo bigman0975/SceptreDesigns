@@ -1,0 +1,36 @@
+body {
+    background: radial-gradient(#3f5efb, #fc466b) no-repeat;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows:  repeat(10, 1fr);
+    background-color: aqua;
+    height: 100px;
+    width: auto;
+    border: 1px solid black;
+}
+
+.logo {
+    display: flex;
+}
+
+.navbar {
+    display: flex;
+    background-color: antiquewhite;
+    border: 1px solid black;
+    height: 100%;
+    width: 100%;
+    grid-column: 3 / span 16;
+    grid-row: 3 span 4 / 4 ;
+}
+
+.navlist {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+    

@@ -1,4 +1,6 @@
-
+body {
+    font-family: 'Acme', sans-serif;
+}
 a {
     text-decoration: none;
     text-shadow: 2px 2px 2px black;
@@ -35,7 +37,7 @@ a.active {
 }
 
 
-.container {
+.navcontainer {
     display: grid;
     background-color: #2424246c;
     grid-template-columns: repeat(30, 1fr);

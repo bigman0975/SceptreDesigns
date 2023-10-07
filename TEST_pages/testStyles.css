@@ -43,7 +43,7 @@ a.active {
 }
 
 
-.container {
+.navcontainer {
     display: grid;
     background-color: rgb(85, 85, 85);
     grid-template-columns: repeat(30, 1fr);

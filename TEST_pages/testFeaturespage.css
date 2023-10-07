@@ -1,0 +1,36 @@
+.container {
+    display: grid;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: rgba(153, 153, 153, 0.459);
+}
+
+
+.main {
+    display: grid;
+    grid-template-columns: repeat(40, 1fr);
+    grid-template-rows: repeat(32, 1fr);
+    background-color: aqua;
+    border: 1px solid black;
+    height: 100vh;
+    width: auto;
+    gap: 10px;
+}
+
+.left {
+
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    grid-area: 4  / 2 / 20 / 14;
+}
+
+.center {
+
+    grid-area: 4 / 15 / 20 / 27 ;
+
+}
+
+.right {
+    
+    grid-area: 4 / 28/ 20 / 40;
+}

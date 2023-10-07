@@ -2,11 +2,11 @@
 a {
     text-decoration: none;
     text-shadow: 2px 2px 2px black;
-    color: rgba(253, 253, 253, 0.801);
+    color: rgb(255, 255, 255);
 }
 
 a.active {
-    background-color: #7087fd;
+    background-color: #575757;
     width: 150px;
     border-radius: 25px;
 }
@@ -37,7 +37,7 @@ a.active {
 
 .container {
     display: grid;
-    background-color: #3f5efb;
+    background-color: #2424246c;
     grid-template-columns: repeat(30, 1fr);
     grid-template-rows:  repeat(10, 1fr);
     height: 100px;
@@ -68,7 +68,7 @@ a.active {
 }
 
 .navlist a:hover {
-    color: white;
+    color: #3f5efb;
     text-shadow: 2px 2px 3px black;
 }
 

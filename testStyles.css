@@ -76,7 +76,7 @@ a.active {
 }
 
 .navlist a:hover {
-    color: black;
+    color: #3f5efb;
     text-shadow: 2px 2px 3px rgb(128, 128, 128);
 }
 

@@ -1,10 +1,10 @@
 body {
     margin: 0;
     padding: 0;
-    background: radial-gradient(#3f5efb, #fc466b) no-repeat;
+    background: radial-gradient(#1b1b1b, #000000) no-repeat;
     font-family: 'Acme', sans-serif;
     font-size: 1rem;
-    color: rgba(197, 197, 197, 0.801);
+    color: #3f5efb;
 }
 
 #main-container{
@@ -16,9 +16,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: azure;
     font-family: 'Exo 2';
-    text-shadow: 5px 5px 5px black;
+    text-shadow: 3px 3px 5px rgba(99, 99, 99, 0.678);
     font-size: 30px;
     width: 50%;
     text-align: center;

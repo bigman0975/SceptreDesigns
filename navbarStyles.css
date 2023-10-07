@@ -39,7 +39,7 @@ a.active {
 
 .navcontainer {
     display: grid;
-    background-color: #2424246c;
+    background-color: #3f5efb;
     grid-template-columns: repeat(30, 1fr);
     grid-template-rows:  repeat(10, 1fr);
     height: 100px;

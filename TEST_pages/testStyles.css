@@ -4,13 +4,13 @@ body {
     background: radial-gradient(#3f5efb, #fc466b) no-repeat;
     font-family: 'Acme', sans-serif;
     font-size: 1rem;
-    color: rgba(197, 197, 197, 0.801);
+    color: white;
 }
 
 a {
     text-decoration: none;
     text-shadow: 2px 2px 2px black;
-    color: rgba(197, 197, 197, 0.801);
+    color: white;
 }
 
 a.active {
@@ -45,7 +45,7 @@ a.active {
 
 .navcontainer {
     display: grid;
-    background-color: rgb(85, 85, 85);
+    background-color: #3f5efb;
     grid-template-columns: repeat(30, 1fr);
     grid-template-rows:  repeat(10, 1fr);
     height: 100px;

@@ -43,21 +43,6 @@ body {
     display: flex;
 }
 
-button {
-    width: 140px;
-    height: 60px;
-    border-radius: 20px;
-    border: none;
-    box-shadow: 2px 2px 7px black;
-    font-family: 'EXO 2';
-    font-size: 20px;
-    font-weight: 900;
-    color: white;
-    background-color: #028bcb;
-}
-
-
-
 .left-content {
     border-radius: 50px;
     width: 33%;

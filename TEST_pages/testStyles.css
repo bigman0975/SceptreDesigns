@@ -21,10 +21,10 @@ a.active {
 
 .search {
     display: flex;
+    flex: 0 3 50%;
     margin-left: 20px;
     padding-left: 10px;
-    grid-area: 4 / 26 / span 3 / span 4;
-    width: 300px;
+    grid-area: 4 / 21 / span 3 / span 4;
     border: none;
     border-radius: 6px 0px 0px 6px;
     font-size: 18px;

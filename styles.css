@@ -1,51 +1,10 @@
-
-a { 
-    text-decoration: none;
-    color: white;
-}
-
-a:hover {
-    color: #03b9f8;
-}
-
-.NavBar {
+body {
+    margin: 0;
     padding: 0;
-    display: flex;
-}
-
-.Logo {
-    position: absolute;
-}
-
-.nav-list {
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    list-style: none;
-    padding: 0;
-    flex-flow: row;
-    height: 60px;
-    width: 100%;
-    
-}
-
-.nav-list li {
-    font-size: 25px;
-    font-weight: bold;
-    width: 200px;
-    text-align: center;
-    text-shadow: 2px 2px 2px black;
-
-}
-
-.checkout {
-    ;
-}
-
-a {
-    text-decoration: none;
-    color: white;
+    background: radial-gradient(#3f5efb, #fc466b) no-repeat;
+    font-family: 'Acme', sans-serif;
+    font-size: 1rem;
+    color: rgba(197, 197, 197, 0.801);
 }
 
 #main-container{

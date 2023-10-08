@@ -63,17 +63,14 @@
 
 .bottom-left{
     grid-area: 15 / 2 / 25 / 14;
-    margin-top: 20px;
 }
 
 .bottom-center{
     grid-area: 15 / 15 / 25 / 27;
-    margin-top: 20px;
 }
 
 .bottom-right{
     grid-area: 15 / 28 / 25 / 40;
-    margin-top: 20px;
 }
 
 @media (max-width: 1328px) {

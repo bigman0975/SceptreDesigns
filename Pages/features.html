@@ -3,34 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Features</title>
-    <link rel="stylesheet" href="../pageStyles.css">
-    <link rel="stylesheet" href="featuresStyles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Exo+2&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Passion+One&display=swap" rel="stylesheet">
+    <title>Test_Features</title>
+    <link rel="stylesheet" href="testStyles.css">
+    <link rel="stylesheet" href="testFeaturespage.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="NavBar">
-        <ul class="nav-list">
-            <li><a href="../index.html" alt="Home">Home</a></li>
-            <li><a href="features.html">Features</a></li>
-            <li><a href="../Pages/pricing.html">Pricing</a></li>
-            <li><a href="../Pages/about.html">About</a></li>
-            <li><a href="../Pages/hire.html">Hire Me</a></li>
-            <li class="checkout"><a href="../Pages/checkout.html">Check-Out</a></li>
-        </ul>
-        <div class="Logo">
-            <a href="../index.html"></a><img width="100" src="../Website Images/Logo.png"></a>
+    <nav id="TopNav">
+        <div class="navcontainer">
+            <div class="logo">
+                <a href="index.html"><img src="../Website Images/Logo.png" height="100"></a>
+            </div>
+            <div class="navbar">
+                <ul class="navlist list1">
+                    <a href="test.html"><li class="navlist list">Home</li></a>
+                    <a href="testFeaturespage.html" class="active"><li class="navlist list">Features</li></a>
+                    <a href="./Pages/projects.html"><li class="navlist list">Projects</li></a>
+                    <a href="./Pages/pricing.html"><li class="navlist list">Pricing</li></a>
+                    <a href="./Pages/about.html"><li class="navlist list">About</li></a>
+                    <a href="./Pages/contact.html"><li class="navlist list">Contact</li></a>
+                </ul>
+                
+            </div>
+            <div class="search">
+                <input type="text" name="search" class="search" placeholder="search...">
+                <button class="searchbutton"><img src="../Website Images/icons8-search.svg" alt="" height="15"></button>
+            </div>
         </div>
-    </div>
-    <div class="container">
-        <div class="box one"></div>
-        <div class="box two"></div>
-        <div class="box three"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-    </div>
-</div>
+    </nav>
+    <section class="container main">
+        <div class="container left">
+            <div class="body-main">
+                <h2 class="title">HTML 5, CSS 3, Java-Script</h2>
+                <img src="../Website Images/htmlcssjs.png" alt="" height="300" width="300" class="image">   
+            </div>
+        </div>
+        <div class="container center">
+            <div class="body-main">
+                <h2 class="title">BootStrap</h2>
+                <img src="../Website Images/bootstrap.png" alt="" height="300" width="300" class="image dos">
+            </div>
+        </div>
+        <div class="container right">
+            <div class="body-main">
+                <h2 class="title">Ruby, Ruby On Rails</h2>
+                <img src="../Website Images/ruby.png" alt="" height="200" width="200" class="image">
+                
+            </div>
+        </div>
+        <div class="container bottom-left">
+            <div class="body-main">
+                <h2 class="title">Python</h2>
+                <img src="../Website Images/python-logo.png" alt="" height="300" width="300" class="image" style="border-radius: 20px;">
+               
+            </div>
+        </div>
+        <div class="container bottom-center">
+            <div class="body-main">
+                <h2 class="title">Jquery & SQL</h2>
+                <img src="../Website Images/sql.png" alt="" height="150" width="150" class="image">
+                <img src="../Website Images/jquery.png" alt="" height="150" width="150">
+                
+            </div>
+        </div>
+        <div class="container bottom-right">
+            <div class="body-main">
+                <h2 class="title">React</h2>
+                <img src="../Website Images/react.png" alt="" height="300" width="300" class="image" style="border-radius: 20px ;">
+                
+            </div>
+        </div>
+    </section>
 </body>
 </html>

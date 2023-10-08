@@ -1,18 +1,94 @@
-.container {
+body {
+    margin: 0;
+    padding: 0;
+    background: radial-gradient(#858585, #000000);
+    font-family: 'Acme', sans-serif;
+    font-size: 1.5rem;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    text-shadow: 2px 2px 2px black;
+    color: white;
+}
+
+a.active {
+    background-color: #585858;
+    width: 125px;
+    border-radius: 25px;
+}
+
+.search {
+    display: flex;
+    flex: 0 3 50%;
+    margin-left: 20px;
+    padding-left: 10px;
+    grid-area: 4 / 21 / span 3 / span 4;
+    border: none;
+    border-radius: 6px 0px 0px 6px;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+
+.searchbutton {
+    display: flex;
+    border: none;
+    border-radius: 0px 6px 6px 0px;
+    grid-area: 2 / 2 / span 2 / span 2;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    
+}
+
+
+.navcontainer {
     display: grid;
-    grid-template-columns: 2fr 2fr 2fr;
-    grid-template-rows: 2fr 2fr 2fr;
-    border: 2px solid black;
-    width: 99%;
-    height: 1000px;
+    background-color: #3f5efb00;
+    grid-template-columns: repeat(30, 1fr);
+    grid-template-rows:  repeat(10, 1fr);
+    height: 100px;
+    width: auto;
 }
 
-.box {
-    margin: 10px;
-    border: 2px solid black;
-    height: auto;
+.logo {
+    display: flex;
+    grid-row: 1 / 11;
 }
 
-.one, .two, .three {
-    grid-row: span 2;
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    grid-area: 2 / 3 / span 7 / span 14;
+}
+
+.navlist {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    font-size: 30px;
+}
+
+.navlist a:hover {
+    color: #7d7d7d;
+    text-shadow: 2px 2px 3px rgb(128, 128, 128);
+}
+
+.list1 {
+    display: flex;
+    grid-column: 5 / 15;
+}
+
+.rightnav {
+    margin-right: 20px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    grid-area: 2 / 26 / span 7 / span 5;
 }

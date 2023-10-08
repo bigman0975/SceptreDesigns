@@ -17,7 +17,7 @@
     grid-template-rows: 2fr 2fr;
     grid-area: 2 / 2 / 20 / 20;
     gap: 3px;
-    border: 1px solid black;
+    
 }
 
 .container-2 {
@@ -25,10 +25,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid black;
+
+    
 }
 
 .bottom {
+    gap: 0 20px;
     display: grid;
     grid-template-columns: repeat(30, 1fr);
     grid-template-rows: repeat(10, 1fr);
@@ -39,12 +41,18 @@
 
 .left {
     grid-area: 1 / 1 / 11 / 11 ;
+    background-color: rgba(255, 255, 255, 0.152);
+    border-radius: 25px;
 }
 
 .center {
     grid-area: 1 / 11 / 20 / 21;
+    background-color: rgba(255, 255, 255, 0.152);
+    border-radius: 25px;
 }
 
 .right {
     grid-area: 1 / 21 / 20 / 31;
+    background-color: rgba(255, 255, 255, 0.152);
+    border-radius: 25px;
 }

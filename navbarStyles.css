@@ -1,24 +1,30 @@
 body {
+    margin: 0;
+    padding: 0;
+    background: radial-gradient(#858585, #000000);
     font-family: 'Acme', sans-serif;
+    font-size: 1.5rem;
+    color: white;
 }
+
 a {
     text-decoration: none;
     text-shadow: 2px 2px 2px black;
-    color: rgb(255, 255, 255);
+    color: white;
 }
 
 a.active {
-    background-color: #575757;
-    width: 150px;
+    background-color: #585858;
+    width: 125px;
     border-radius: 25px;
 }
 
 .search {
     display: flex;
+    flex: 0 3 50%;
     margin-left: 20px;
     padding-left: 10px;
-    grid-area: 4 / 26 / span 3 / span 4;
-    width: 300px;
+    grid-area: 4 / 21 / span 3 / span 4;
     border: none;
     border-radius: 6px 0px 0px 6px;
     font-size: 18px;
@@ -39,7 +45,7 @@ a.active {
 
 .navcontainer {
     display: grid;
-    background-color: #3f5efb;
+    background-color: #3f5efb00;
     grid-template-columns: repeat(30, 1fr);
     grid-template-rows:  repeat(10, 1fr);
     height: 100px;
@@ -70,8 +76,8 @@ a.active {
 }
 
 .navlist a:hover {
-    color: #3f5efb;
-    text-shadow: 2px 2px 3px black;
+    color: #7d7d7d;
+    text-shadow: 2px 2px 3px rgb(128, 128, 128);
 }
 
 .list1 {

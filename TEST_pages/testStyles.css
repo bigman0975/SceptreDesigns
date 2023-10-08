@@ -1,9 +1,9 @@
 body {
     margin: 0;
     padding: 0;
-    background: radial-gradient(#3f5efb, #fc466b) no-repeat;
+    background: radial-gradient(#fc466b, #3f5efb) no-repeat;
     font-family: 'Acme', sans-serif;
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: white;
 }
 
@@ -14,7 +14,7 @@ a {
 }
 
 a.active {
-    background-color: #74757a;
+    background-color: #fc466b;
     width: 125px;
     border-radius: 25px;
 }
@@ -45,7 +45,7 @@ a.active {
 
 .navcontainer {
     display: grid;
-    background-color: #3f5efb;
+    background-color: #3f5efb00;
     grid-template-columns: repeat(30, 1fr);
     grid-template-rows:  repeat(10, 1fr);
     height: 100px;

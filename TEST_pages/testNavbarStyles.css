@@ -8,6 +8,11 @@ body {
     color: white;
 }
 
+#TopNav {
+    display: grid ;
+    grid-area: 1 / 1 / 2 / 21;
+}
+
 a {
     text-decoration: none;
     text-shadow: 2px 2px 2px black;

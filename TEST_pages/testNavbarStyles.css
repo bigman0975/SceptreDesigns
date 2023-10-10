@@ -4,11 +4,12 @@ body {
     background: radial-gradient(#858585, #000000) no-repeat;
     background-size: cover;
     font-family: 'Acme', sans-serif;
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: white;
 }
 
 #TopNav {
+    background-color: #00000052;
     display: grid ;
     grid-area: 1 / 1 / 2 / 21;
 }
@@ -20,7 +21,7 @@ a {
 }
 
 a.active {
-    background-color: #585858;
+    background-color: #0a9afa;
     width: 125px;
     border-radius: 25px;
 }
@@ -30,7 +31,7 @@ a.active {
     flex: 0 3 50%;
     margin-left: 20px;
     padding-left: 10px;
-    grid-area: 4 / 21 / span 3 / span 4;
+    grid-area: 4 / 25 / span 3 / span 4;
     border: none;
     border-radius: 6px 0px 0px 6px;
     font-size: 18px;
@@ -64,11 +65,12 @@ a.active {
 }
 
 .navbar {
+    font-size: 10em;
     display: flex;
     align-items: center;
     justify-content: start;
     width: 100%;
-    grid-area: 2 / 3 / span 7 / span 14;
+    grid-area: 2 / 6 / span 7 / span 14;
 }
 
 .navlist {
@@ -77,13 +79,12 @@ a.active {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 40px;
-    font-size: 30px;
+    gap: 50px;
+    font-size: 2.5rem;
 }
 
 .navlist a:hover {
-    color: #7d7d7d;
-    text-shadow: 2px 2px 3px rgb(128, 128, 128);
+    color: #003ee9;
 }
 
 .list1 {

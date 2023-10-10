@@ -42,6 +42,9 @@ a.active {
     
 }
 
+#TopNav {
+    background-color: #000000;
+}
 
 .navcontainer {
     display: grid;
